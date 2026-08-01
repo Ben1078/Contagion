@@ -1,17 +1,17 @@
-package Contagion;
+package contagion;
 
 /**
  * Stores information about a disease.
  *
  * @author YU-JIE CHEN
  */
-public class disease {
+public class Disease {
 
     private String name;
     private double infectionRate;
     private double recoveryRate;
 
-    public disease(String name, double infectionRate, double recoveryRate) {
+    public Disease(String name, double infectionRate, double recoveryRate) {
         this.name = name;
         this.infectionRate = infectionRate;
         this.recoveryRate = recoveryRate;
